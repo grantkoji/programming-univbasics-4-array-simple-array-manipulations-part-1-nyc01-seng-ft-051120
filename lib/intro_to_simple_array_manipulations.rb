@@ -13,8 +13,8 @@ end
 
 def pop_with_args(array)
   newarray = []
-  newarray.push = array.pop
-  newarray.push = array.pop
+  newarray.push(array.pop)
+  newarray.push(array.pop)
   return newarray
 end
 
@@ -24,7 +24,7 @@ end
 
 def shift_with_args(array)
   newarray = []
-  newarray.push = array.shift
-  newarray.push = array.shift
+  newarray.push(array.shift)
+  newarray.push(array.shift)
   return newarray
 end
