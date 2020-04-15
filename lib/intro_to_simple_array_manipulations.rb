@@ -20,7 +20,7 @@ end
 
 def using_shift(array)
   return array.shift
-end  
+end
 
 def shift_with_args(array)
   newarray = []
