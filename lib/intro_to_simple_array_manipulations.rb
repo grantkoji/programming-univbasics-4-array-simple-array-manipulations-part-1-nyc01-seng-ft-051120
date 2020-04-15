@@ -14,7 +14,7 @@ end
 def pop_with_args(array)
   newarray = []
   newarray.push(array.pop)
-  newarray.push(array.pop)
+  newarray.unshift(array.pop)
   return newarray
 end
 
